@@ -43,7 +43,7 @@ from typing import Any, Dict, List, Tuple
 import requests
 import torch
 import zmq
-from peft import PeftModel
+from .peft import PeftModel
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from ..utils import (
